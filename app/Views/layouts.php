@@ -7,7 +7,7 @@
     <meta name="description" content="Hola mundo conbase de datos, hola + CRUD">
     <title>HOLA MUNDO</title>
     <link rel="icon" href="<?= BASE_URL ? rtrim(BASE_URL,'/'): ''?>/images/logo.ico">
-    <link rel="stylesheet" href="<?= BASE_URL ? rtrim(BASE_URL, '/'): ''?>/assets/css/estilos.css">
+    <link rel="stylesheet" href="<?= BASE_URL ? rtrim(BASE_URL, '/'): ''?>/assets/css/style.css">
 </head>
 <body>
     <header class="container">
@@ -26,5 +26,8 @@
             Hecho con corazón en PHP MVC
         </small>
     </footer>
+
+    <script src="<?= BASE_URL ? rtrim(BASE_URL, '/'): ''?>/assets/js/app.js"></script>
+
 </body>
 </html>
